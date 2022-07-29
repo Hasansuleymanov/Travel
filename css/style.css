@@ -1,0 +1,660 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: 92%;
+    margin: auto;
+}
+
+.dis-flex{
+    display: flex;
+}
+
+.nolist{
+    list-style: none;
+}
+
+.j-between{
+    justify-content: space-between;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.a-center{
+    align-items: center;
+}
+
+.header{
+    padding: 10px 0px;
+}
+
+.nodeco{
+    text-decoration: none;
+}
+
+.vertical{
+    width: 1px;
+    height: 40px;
+    background-color: #CBD5E1;
+    margin: 0px 40px;
+}
+
+.header .right .menu ul li a{
+    color: black;
+    border:1px solid #94A3B8;
+    padding: 10px;
+    border-radius: 20px;  
+    text-decoration: none;
+}
+
+.mx1{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.full{
+    width: 100%;
+}
+
+.header .right .menu ul li{
+    margin-left: 15px;
+}
+
+.header .right .menu ul li img{
+    margin-right: 10px;
+}
+
+.pic{
+    position: relative;
+    height: 100vh;
+}
+
+.pic .le{
+    position: absolute;
+    background-color: #06B6D4;
+    top:46%;
+    z-index: 2;
+    transform: translateY(-50%);
+    width:36%;
+    padding: 150px;
+    height: 52%;
+}
+
+.pic .le h1{
+    color: white;
+    font-size: 75px;
+    position: absolute;
+    width: 640px;
+    bottom: 22%;
+    left: 11%;
+}
+
+.pic .ri{
+    position: absolute;
+    width: 70%;
+    right: 70px;
+}
+
+.pic .below{
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 90px;
+    width: 85%;
+    height: 100px;
+    bottom:-51px;
+    left: 25px;
+    border-left-color: #EEEEEE;
+}
+
+.pic .le ul{
+    position: absolute;
+    top: 120%;
+    left: 70px;
+}
+
+.pic .le ul li{
+    color:#434958;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.j-around{
+    justify-content: space-around;
+}
+
+.pic .below{
+    margin-left: 10px;
+    justify-content: space-around;
+
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+.pic .below .us h6{
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.d-block{
+    display: block;
+}
+.pic .below .us p{
+    color:#434958;
+    margin-left: 43px;
+}
+
+.pic .below .us .bir{
+    margin-left: 40px;
+}
+.pic .below .us img{
+    margin-top: 5px;
+}
+
+.pic .below .us .iki{
+    margin-left:300px;
+}
+
+.pic .below .us .uc{
+    margin-left:150px;
+}
+
+.pic .below .us i{
+    margin-left: 120px;
+    background-color: #06B6D4;
+    border-radius: 100%;
+    font-size: 17px;
+    color: #FFFFFF;
+    padding: 25px;
+}
+
+.dor i{
+    width: 10px;
+}
+
+.below{
+    padding: 15px 0px;
+}
+
+.icons{
+    margin-top: 300px;
+    margin-bottom: 110px;
+}
+
+.icons .icon{
+    width: 15%
+}
+.function .title{
+    text-align: center;
+}
+.function .title h4{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.function .title p{
+    color: #A2ACB9;
+    font-size: 23px;
+    margin-bottom: 90px;
+}
+
+.function .basic{
+    position: relative;
+}
+
+.function .basic .li{
+    position: absolute;
+    bottom: -250%;
+}
+
+.function .basic .li img{
+    width: 98%;
+}
+
+.function .basic .imag{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+.function .basic .imag img{
+    width: 220px;
+    margin-bottom: 50px;
+}
+
+.texo{
+    margin-top: 300px;
+}
+
+.texo .obsi{
+    text-align: center;
+    width:100%;
+}
+
+.texo .obsi h6{
+    font-size: 21px;
+}
+
+.texo .obsi .texo1{
+    margin-left: 30px;
+}
+
+.texo .obsi .texo2{
+    margin-left: 35px;
+}
+
+.texo .obsi .texo3{
+    margin-left: 45px;
+}
+
+.texo .obsi p{
+    color: #8E9AAA;
+    margin-top: 20px;
+    width: 285px;
+    margin-bottom: 140px;
+}
+
+.maxi{
+    width: 98%;
+    margin: auto;
+    background-color: #F1F5F9;
+    padding-bottom: 50px;
+}
+
+.maxi .bas .heading h4{
+    font-size: 40px;
+    padding-top: 70px;
+}
+
+.maxi .bas .heading p{
+    color:#758398;
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+.maxi .bas .menyu{
+    margin-top:50px;
+}
+
+.maxi .bas .menyu ul li{
+    font-size: 18px;
+}
+
+.pico1{
+    width: 120%;
+    height: 220px;
+    border-radius: 15px;
+}
+
+.boss{
+    background-color: #115E59;
+    border-radius: 30px;
+    padding:6px 20px;
+    padding-top: 8px;
+    color:white;
+}
+
+.non, .non1, .non2{
+    margin:5px 0px;
+    margin-left:40px;
+    color: #758398;
+}
+
+.maxi .bas .menyu button{
+    padding:10px 34px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    border: 1px solid #CBD5E1;
+    font-size: 16px;
+}
+
+.maxi .bas .hotels{
+    margin-top: 40px;
+}
+.hotels {
+    position: relative;
+}
+.buto{
+    background-color: #F97316;
+    border: none;
+    color:#FFFFFF;
+    padding: 2px 8px;
+    border-radius: 20px;
+}
+
+.hotels .hotel1 .but{
+    position: absolute;
+    left: 20px;
+    top:20px;
+}
+.hotels .hotel1{
+    width: 48.5%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.pico{
+    width: 135%;
+    height: 220px;
+    border-radius: 15px;
+}
+
+.hotels .hotel1 .bruh{
+    margin-left: 82px;
+}
+
+.fam{
+    margin-top: 30px;
+    margin-left: 7px;
+    border-radius: 20px;
+    border: none;
+    padding: 3px 12px;
+    color: #8E5A1C;
+    background-color: #FEF9C3;
+    font-size: 14px;
+    margin-right: 130px;
+    margin-bottom: 15px;
+}
+
+.fam1{
+    margin-top: 30px;
+    margin-left: 7px;
+    border-radius: 20px;
+    border: none;
+    padding: 3px 12px;
+    color: #8E5A1C;
+    background-color: #FEF9C3;
+    font-size: 14px;
+    margin-right: 130px;
+    margin-bottom: 15px;
+}
+
+.int{
+    padding:3px 12px;
+    color: #3F5EBD;
+    border-radius: 20px;
+    border: none;
+    background-color: #DBEAFE;
+    font-size: 14px;
+}
+
+.pico3{
+    width:108%;
+    height: 230px;
+    border-radius: 15px;
+}
+
+.ad{
+    color: #267142;
+    background-color: #DCFCE7;
+    border: none;
+    padding: 3px 7px;
+    border-radius: 20px;
+}
+
+.hotels .hotel1 .bruh span{
+    margin-left: 3px;
+    font-size: 18px;
+}
+
+.hotels .hotel1{
+    position: relative;
+    margin-bottom: 80px;
+}
+.hotels .hotel1 .buttan{
+    position: absolute;
+    left:20px;
+    top:20px;
+}
+
+.hotels .hotel1 .buttan button{
+    background-color: #F97316;
+    border: none;
+    color:#FFFFFF;
+    padding: 2px 8px;
+    border-radius: 20px;  
+}
+
+.hotels .hotel1 .bruh .pa{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.hotels .hotel1 .bruh .pa p{
+    margin-top: 30px;
+    color: #99A3B3;
+    font-size: 12px;
+}
+
+.hotels .hotel1 .bruh .pa i{
+    margin-right: 5px;
+    margin-left: 7px;
+}
+
+.hotels .hotel1 .bruh i{
+    color: black;
+}
+
+.horizontal{
+    height:1px;
+    width: 60px;
+    background-color: #F1F5F9;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 7px;
+}
+
+.hotels .hotel1 .bruh .down i{
+    color: #EF4444;
+    margin-right: 5px;
+}
+
+.hotels .hotel1 .bruh .down button{
+    color: #49C8BA;
+    background-color: white;
+    border:1px solid #14B8A6;
+    padding: 6px 13px;
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+.hotels .hotel1 .bruh .down span{
+    color: #939EAE;
+    margin-left: 2px;
+    font-size: 16px;
+}
+
+.hotels .hotel1 .bruh1 span b{
+    margin-left: 3px;
+    font-size: 18px;
+    width: 300px;
+}
+
+.hotels .hotel1{
+    text-align:justify;
+}
+.distance{
+    margin-top: 30px;
+}
+
+.hotels .hotel1 .bruh1 .pa{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.hotels .hotel1 .bruh1 .pa p{
+    margin-top: 30px;
+    color: #99A3B3;
+    font-size: 12px;
+}
+
+.hotels .hotel1 .bruh1 .pa i{
+    margin-right: 5px;
+    margin-left: 7px;
+}
+
+.hotels .hotel1 .bruh1 i{
+    color: black;
+}
+
+.hotels .hotel1 .bruh1 .down i{
+    color: #EF4444;
+    margin-right: 3px;
+}
+
+.hotels .hotel1 .bruh1 .down button{
+    color: #49C8BA;
+    background-color: white;
+    border:1px solid #14B8A6;
+    padding: 6px 13px;
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+.hotels .hotel1 .bruh1 .down span{
+    color: #939EAE;
+    margin-left: 4px;
+    font-size: 16px;
+}
+
+.hotels .hotel1 .bruh1{
+    margin-left: 57px;
+}
+
+.pico2{
+    width: 150%;
+    height: 230px;
+    border-radius: 15px;
+}
+
+.let{
+    margin-left: 40px;
+}
+
+
+.ler{
+    margin-left: -15px;
+}
+.ril{
+    margin-right: 110px;
+}
+.leo{
+    margin-left: 73px;
+}
+.pico4{
+    width:188%;
+    height: 230px;
+    border-radius: 15px;
+}
+
+.rim{
+    margin-right: 50px;
+}
+
+.pico5{
+    height:230px;
+    width:189%;
+    border-radius: 15px;
+}
+.maxi .bas .ay{
+    text-align: center;
+}
+.maxi .bas .ay button{
+    background-color: #539AAF;
+    color: white;
+    border: none;
+    padding: 10px 31px;
+    font-size: 16px;
+    border-radius: 40px;
+}
+
+.maxi{
+    margin-bottom: 90px;
+}
+
+.marko .pel .benef p{
+    color: #CCCFD6;
+    font-size: 16px;
+    margin-top: 150px;
+}
+
+.marko .pel .benef h2{
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.marko{
+    margin-bottom: 160px;
+}
+
+.blu{
+    color: #8AA1DC;
+    background-color: #DBEAFE;
+    border: none;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 3px 10px;
+}
+
+.marko .pel .benef h4{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.marko .pel .benef h6{
+    color: #BCC3CD;
+    font-size: 16px;
+    width: 420px;
+    margin-top: 18px;
+}
+
+.re{
+    color: #DDA0A0;
+    background-color: #FEE2E2;
+    padding: 3px 10px;
+    border-radius: 20px;
+    margin-top: 50px;
+    border: none;
+}
+
+
+
+.marko .pel .dra img{
+    margin-top: 80px;
+    width: 100%;
+}
+
+.gre{
+    background-color: #DCFCE7;
+    color: #8DC0A0;
+    border: none;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 3px 10px;
+}
+
+.fir{
+    width: 100%;
+    height: 100%;
+}
+
+.tr{
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
